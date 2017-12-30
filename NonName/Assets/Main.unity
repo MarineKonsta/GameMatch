@@ -152,7 +152,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 52057276}
   - 212: {fileID: 52057275}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: tile_jungle_ground_brown_4 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -196,11 +196,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 52057274}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 71.5, y: -0.16, z: -0.1115}
+  m_LocalPosition: {x: 81.13823, y: -16.641113, z: -88.03338}
   m_LocalScale: {x: 6, y: 5, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 29
+  m_Father: {fileID: 328059719}
+  m_RootOrder: 16
 --- !u!1 &78963162
 GameObject:
   m_ObjectHideFlags: 0
@@ -268,7 +268,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 103392160}
   - 212: {fileID: 103392159}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: tile_jungle_ground_brown_4 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -312,11 +312,38 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 103392158}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 71.5, y: -4.4, z: -0.1}
+  m_LocalPosition: {x: 81.13823, y: -20.881113, z: -88.02187}
   m_LocalScale: {x: 6, y: 5, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_Father: {fileID: 328059719}
+  m_RootOrder: 9
+--- !u!1 &113213250
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 113213251}
+  m_Layer: 0
+  m_Name: GenerationPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &113213251
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 113213250}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 27.1, y: -0.45, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1484002580}
+  m_RootOrder: 0
 --- !u!1 &135983790
 GameObject:
   m_ObjectHideFlags: 0
@@ -576,7 +603,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 220935624}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.7, y: 0.66, z: 0}
+  m_LocalPosition: {x: 21.33823, y: -15.821114, z: -87.921875}
   m_LocalScale: {x: 6, y: 4, z: 1}
   m_Children:
   - {fileID: 1998365028}
@@ -585,8 +612,8 @@ Transform:
   - {fileID: 589148842}
   - {fileID: 979986783}
   - {fileID: 1015334345}
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_Father: {fileID: 328059719}
+  m_RootOrder: 3
 --- !u!68 &220935627
 EdgeCollider2D:
   m_ObjectHideFlags: 0
@@ -612,7 +639,7 @@ GameObject:
   - 4: {fileID: 242054799}
   - 212: {fileID: 242054798}
   - 61: {fileID: 242054797}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: tile_jungle_ground_brown_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -670,11 +697,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 242054796}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 71.48, y: 1.1, z: -0.1118}
+  m_LocalPosition: {x: 81.11823, y: -15.381113, z: -88.033676}
   m_LocalScale: {x: 6, y: 5, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 31
+  m_Father: {fileID: 328059719}
+  m_RootOrder: 18
 --- !u!1 &250507210
 GameObject:
   m_ObjectHideFlags: 0
@@ -801,12 +828,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 254810942}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.31, y: -0.79, z: 0}
+  m_LocalPosition: {x: 10.948231, y: -17.271114, z: -87.921875}
   m_LocalScale: {x: 4.802088, y: 3.9365618, z: 1}
   m_Children:
   - {fileID: 2087915656}
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_Father: {fileID: 328059719}
+  m_RootOrder: 0
 --- !u!1 &272824930
 GameObject:
   m_ObjectHideFlags: 0
@@ -861,7 +888,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 272824930}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -28.78, y: -6.54, z: 0}
+  m_LocalPosition: {x: -19.14177, y: -23.021114, z: -87.921875}
   m_LocalScale: {x: 7, y: 7, z: 1}
   m_Children:
   - {fileID: 779382026}
@@ -869,8 +896,8 @@ Transform:
   - {fileID: 167253374}
   - {fileID: 1798217956}
   - {fileID: 1018401080}
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_Father: {fileID: 328059719}
+  m_RootOrder: 6
 --- !u!68 &272824933
 EdgeCollider2D:
   m_ObjectHideFlags: 0
@@ -944,6 +971,58 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!1 &328059718
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 328059719}
+  m_Layer: 0
+  m_Name: Ground
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &328059719
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 328059718}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.63823, y: 16.481113, z: 87.921875}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 254810945}
+  - {fileID: 1360407553}
+  - {fileID: 1501108021}
+  - {fileID: 220935626}
+  - {fileID: 1595954990}
+  - {fileID: 809761182}
+  - {fileID: 272824932}
+  - {fileID: 1500726199}
+  - {fileID: 513713499}
+  - {fileID: 103392160}
+  - {fileID: 1252757854}
+  - {fileID: 1830111219}
+  - {fileID: 1360855748}
+  - {fileID: 1321034184}
+  - {fileID: 1152543413}
+  - {fileID: 582467868}
+  - {fileID: 52057276}
+  - {fileID: 912448231}
+  - {fileID: 242054799}
+  - {fileID: 1020986287}
+  - {fileID: 1466243203}
+  - {fileID: 1491172590}
+  - {fileID: 1713033149}
+  - {fileID: 1694584224}
+  - {fileID: 1329858745}
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
 --- !u!1 &346319015
 GameObject:
   m_ObjectHideFlags: 0
@@ -1113,12 +1192,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 369470557}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.95, y: 1.78, z: 1.8}
+  m_LocalPosition: {x: 21.58823, y: -14.701114, z: -86.12187}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children:
   - {fileID: 711472538}
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_Father: {fileID: 1146974254}
+  m_RootOrder: 3
 --- !u!1 &427171489
 GameObject:
   m_ObjectHideFlags: 0
@@ -1230,11 +1309,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 438084767}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.22, y: -3.03, z: 0}
+  m_LocalPosition: {x: 15.858231, y: -19.511114, z: -87.921875}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_Father: {fileID: 1146974254}
+  m_RootOrder: 1
 --- !u!1 &446150938
 GameObject:
   m_ObjectHideFlags: 0
@@ -1364,7 +1443,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   groundCheck: {fileID: 1651249768}
-  jumpHeight: 350
+  jumpHeight: 400
 --- !u!61 &446150947
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1522,7 +1601,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 513713499}
   - 212: {fileID: 513713498}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: tile_jungle_ground_brown_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1566,11 +1645,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 513713497}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 71.5, y: -5.108153, z: 0}
+  m_LocalPosition: {x: 81.13823, y: -21.589266, z: -87.921875}
   m_LocalScale: {x: 6, y: 5, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_Father: {fileID: 328059719}
+  m_RootOrder: 8
 --- !u!1 &557880517
 GameObject:
   m_ObjectHideFlags: 0
@@ -1642,7 +1721,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 582467868}
   - 212: {fileID: 582467867}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: tile_jungle_ground_brown_4 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1686,11 +1765,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 582467866}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 71.5, y: -0.76, z: -0.1114}
+  m_LocalPosition: {x: 81.13823, y: -17.241114, z: -88.03327}
   m_LocalScale: {x: 6, y: 5, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_Father: {fileID: 328059719}
+  m_RootOrder: 15
 --- !u!1 &589148838
 GameObject:
   m_ObjectHideFlags: 0
@@ -2007,11 +2086,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 768213201}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.24, y: -0, z: 0}
+  m_LocalPosition: {x: 18.878231, y: -16.481113, z: -87.921875}
   m_LocalScale: {x: 6, y: 6, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_Father: {fileID: 1146974254}
+  m_RootOrder: 2
 --- !u!1 &779382025
 GameObject:
   m_ObjectHideFlags: 0
@@ -2215,7 +2294,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 809761180}
   m_LocalRotation: {x: 1, y: 0, z: 0, w: -0.00000016292068}
-  m_LocalPosition: {x: -68.1, y: 20.29, z: 0}
+  m_LocalPosition: {x: -58.46177, y: 3.8088875, z: -87.921875}
   m_LocalScale: {x: 10, y: 10, z: 1}
   m_Children:
   - {fileID: 346319016}
@@ -2236,8 +2315,8 @@ Transform:
   - {fileID: 153475169}
   - {fileID: 78963163}
   - {fileID: 2044285205}
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_Father: {fileID: 328059719}
+  m_RootOrder: 5
 --- !u!68 &809761183
 EdgeCollider2D:
   m_ObjectHideFlags: 0
@@ -2298,7 +2377,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 912448231}
   - 212: {fileID: 912448230}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: tile_jungle_ground_brown_4 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2342,11 +2421,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 912448229}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 71.5, y: 0.44, z: -0.1117}
+  m_LocalPosition: {x: 81.13823, y: -16.041113, z: -88.03358}
   m_LocalScale: {x: 6, y: 5, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_Father: {fileID: 328059719}
+  m_RootOrder: 17
 --- !u!1 &922645155
 GameObject:
   m_ObjectHideFlags: 0
@@ -2521,6 +2600,48 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!1 &975920516
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 975920518}
+  - 114: {fileID: 975920517}
+  m_Layer: 0
+  m_Name: Platform Generator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &975920517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 975920516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81e78691014c6407fa6bdec3687891d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thePlatform: {fileID: 1500726196}
+  generationPoint: {fileID: 113213251}
+  distanceBetween: 10
+--- !u!4 &975920518
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 975920516}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 71.9, y: -5.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
 --- !u!1 &979986781
 GameObject:
   m_ObjectHideFlags: 0
@@ -2721,7 +2842,7 @@ GameObject:
   - 4: {fileID: 1020986287}
   - 212: {fileID: 1020986286}
   - 60: {fileID: 1020986288}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: guide_jungle_49
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2765,11 +2886,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1020986285}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 27.75935, y: -5.2, z: 0}
+  m_LocalPosition: {x: 37.39758, y: -21.681114, z: -87.921875}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_Father: {fileID: 328059719}
+  m_RootOrder: 19
 --- !u!60 &1020986288
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -2800,6 +2921,37 @@ PolygonCollider2D:
       - {x: -0.19, y: -0.35999998}
       - {x: -0.14999999, y: -0.19999999}
       - {x: 0.64, y: -0.19999999}
+--- !u!1 &1146974253
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1146974254}
+  m_Layer: 0
+  m_Name: Background Objects
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1146974254
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1146974253}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.63823, y: 16.481113, z: 87.921875}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2006637885}
+  - {fileID: 438084769}
+  - {fileID: 768213203}
+  - {fileID: 369470559}
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
 --- !u!1 &1152543411
 GameObject:
   m_ObjectHideFlags: 0
@@ -2809,7 +2961,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1152543413}
   - 212: {fileID: 1152543412}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: tile_jungle_ground_brown_4 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2853,11 +3005,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1152543411}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 71.5, y: -1.38, z: -0.1113}
+  m_LocalPosition: {x: 81.13823, y: -17.861113, z: -88.03317}
   m_LocalScale: {x: 6, y: 5, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_Father: {fileID: 328059719}
+  m_RootOrder: 14
 --- !u!1 &1204005558
 GameObject:
   m_ObjectHideFlags: 0
@@ -2983,7 +3135,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1252757854}
   - 212: {fileID: 1252757853}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: tile_jungle_ground_brown_4 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3027,11 +3179,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1252757852}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 71.5, y: -3.75, z: -0.11}
+  m_LocalPosition: {x: 81.13823, y: -20.231113, z: -88.031876}
   m_LocalScale: {x: 6, y: 5, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_Father: {fileID: 328059719}
+  m_RootOrder: 10
 --- !u!1 &1257224585
 GameObject:
   m_ObjectHideFlags: 0
@@ -3099,7 +3251,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1321034184}
   - 212: {fileID: 1321034183}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: tile_jungle_ground_brown_4 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3143,11 +3295,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1321034182}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 71.5, y: -1.99, z: -0.1112}
+  m_LocalPosition: {x: 81.13823, y: -18.471113, z: -88.03307}
   m_LocalScale: {x: 6, y: 5, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_Father: {fileID: 328059719}
+  m_RootOrder: 13
 --- !u!1 &1329858743
 GameObject:
   m_ObjectHideFlags: 0
@@ -3157,7 +3309,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1329858745}
   - 212: {fileID: 1329858744}
-  m_Layer: 0
+  - 61: {fileID: 1329858746}
+  m_Layer: 10
   m_Name: guide_jungle_35 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3201,11 +3354,25 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1329858743}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 44, y: 3.5, z: 0}
+  m_LocalPosition: {x: 53.63823, y: -12.981113, z: -87.921875}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_Father: {fileID: 328059719}
+  m_RootOrder: 24
+--- !u!61 &1329858746
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1329858743}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: -0.086333655}
+  serializedVersion: 2
+  m_Size: {x: 2.56, y: 0.34733278}
 --- !u!1 &1360407550
 GameObject:
   m_ObjectHideFlags: 0
@@ -3274,11 +3441,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1360407550}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.39, y: -5.46, z: 0}
+  m_LocalPosition: {x: 22.02823, y: -21.941113, z: -87.921875}
   m_LocalScale: {x: 7.160569, y: 4.3529253, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_Father: {fileID: 328059719}
+  m_RootOrder: 1
 --- !u!1 &1360855746
 GameObject:
   m_ObjectHideFlags: 0
@@ -3288,7 +3455,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1360855748}
   - 212: {fileID: 1360855747}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: tile_jungle_ground_brown_4 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3332,11 +3499,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1360855746}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 71.5, y: -2.6, z: -0.1111}
+  m_LocalPosition: {x: 81.13823, y: -19.081114, z: -88.032974}
   m_LocalScale: {x: 6, y: 5, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_Father: {fileID: 328059719}
+  m_RootOrder: 12
 --- !u!1 &1466243200
 GameObject:
   m_ObjectHideFlags: 0
@@ -3347,7 +3514,7 @@ GameObject:
   - 4: {fileID: 1466243203}
   - 212: {fileID: 1466243202}
   - 61: {fileID: 1466243201}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: guide_jungle_35
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3405,11 +3572,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1466243200}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 36, y: -4.8, z: 0}
+  m_LocalPosition: {x: 45.63823, y: -21.281113, z: -87.921875}
   m_LocalScale: {x: 4, y: 5, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_Father: {fileID: 328059719}
+  m_RootOrder: 20
 --- !u!1 &1484002575
 GameObject:
   m_ObjectHideFlags: 0
@@ -3493,9 +3660,10 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1484002575}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.255325, y: -3.5410042, z: -2.56}
+  m_LocalPosition: {x: -15.255325, y: -3.5410042, z: -9.9}
   m_LocalScale: {x: 3.95138, y: 3.9513867, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 113213251}
   m_Father: {fileID: 0}
   m_RootOrder: 0
 --- !u!114 &1484002581
@@ -3545,7 +3713,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1491172590}
   - 212: {fileID: 1491172589}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: guide_jungle_35
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3589,11 +3757,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1491172588}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 9.63823, y: -16.481113, z: -87.921875}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_Father: {fileID: 328059719}
+  m_RootOrder: 21
 --- !u!1 &1500726196
 GameObject:
   m_ObjectHideFlags: 0
@@ -3604,7 +3772,7 @@ GameObject:
   - 4: {fileID: 1500726199}
   - 212: {fileID: 1500726198}
   - 61: {fileID: 1500726197}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: tile_jungle_ground_brown_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3662,11 +3830,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1500726196}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 66.28, y: -5.1929655, z: 0}
+  m_LocalPosition: {x: 75.91823, y: -21.67408, z: -87.921875}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_Father: {fileID: 328059719}
+  m_RootOrder: 7
 --- !u!1 &1501108018
 GameObject:
   m_ObjectHideFlags: 0
@@ -3735,12 +3903,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1501108018}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8, y: -3.7, z: 0}
+  m_LocalPosition: {x: 17.63823, y: -20.181114, z: -87.921875}
   m_LocalScale: {x: 4.757684, y: 4.1881814, z: 1}
   m_Children:
   - {fileID: 1984998420}
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_Father: {fileID: 328059719}
+  m_RootOrder: 2
 --- !u!1 &1531657483
 GameObject:
   m_ObjectHideFlags: 0
@@ -3853,11 +4021,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1595954988}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.8, y: -2.15, z: 0}
+  m_LocalPosition: {x: 24.43823, y: -18.631113, z: -87.921875}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_Father: {fileID: 328059719}
+  m_RootOrder: 4
 --- !u!68 &1595954991
 EdgeCollider2D:
   m_ObjectHideFlags: 0
@@ -3910,7 +4078,7 @@ GameObject:
   - 4: {fileID: 1694584224}
   - 212: {fileID: 1694584223}
   - 60: {fileID: 1694584225}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: tile_jungle_slopes_brown_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3954,11 +4122,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1694584222}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 59.1, y: -4.396643, z: 0}
+  m_LocalPosition: {x: 68.73823, y: -20.877756, z: -87.921875}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_Father: {fileID: 328059719}
+  m_RootOrder: 23
 --- !u!60 &1694584225
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -3992,7 +4160,7 @@ GameObject:
   - 4: {fileID: 1713033149}
   - 212: {fileID: 1713033148}
   - 61: {fileID: 1713033150}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: tile_jungle_ground_brown_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4036,11 +4204,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1713033147}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 52, y: -5.2, z: 0}
+  m_LocalPosition: {x: 61.63823, y: -21.681114, z: -87.921875}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_Father: {fileID: 328059719}
+  m_RootOrder: 22
 --- !u!61 &1713033150
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4180,7 +4348,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1830111219}
   - 212: {fileID: 1830111218}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: tile_jungle_ground_brown_4 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4224,11 +4392,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1830111217}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 71.5, y: -3.1, z: -0.111}
+  m_LocalPosition: {x: 81.13823, y: -19.581114, z: -88.032875}
   m_LocalScale: {x: 6, y: 5, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_Father: {fileID: 328059719}
+  m_RootOrder: 11
 --- !u!1 &1843058143
 GameObject:
   m_ObjectHideFlags: 0
@@ -4456,12 +4624,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1972338817}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.5, y: 2.4, z: 6.3}
-  m_LocalScale: {x: 522.6395, y: 181.31335, z: 1}
+  m_LocalPosition: {x: 69.3, y: 2.4, z: 6.3}
+  m_LocalScale: {x: 901.5533, y: 226.64195, z: 1}
   m_Children:
   - {fileID: 557880519}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 2
 --- !u!1 &1984998417
 GameObject:
   m_ObjectHideFlags: 0
@@ -4686,11 +4854,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2006637883}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -69.81637, y: 23.7, z: 0}
+  m_LocalPosition: {x: -60.17814, y: 7.2188873, z: -87.921875}
   m_LocalScale: {x: 6, y: 6, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_Father: {fileID: 1146974254}
+  m_RootOrder: 0
 --- !u!1 &2044285204
 GameObject:
   m_ObjectHideFlags: 0
