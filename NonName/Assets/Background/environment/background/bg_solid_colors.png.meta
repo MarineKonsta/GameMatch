@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: a13edcdb8d45a4b30bcd4a0bb29f73de
-timeCreated: 1514576379
+timeCreated: 1514587870
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -9,10 +9,12 @@ TextureImporter:
     21300004: Light Blue
     21300006: Dark Blue
     21300008: White
+    21300010: bg_solid_colors_0
+    21300012: bg_solid_colors_1
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -55,43 +57,25 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: Black
+    - name: bg_solid_colors_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 96
-        width: 31
-        height: 31
+        y: 0
+        width: 256
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Medium Blue
+      outline:
+      - - {x: -128, y: 64}
+        - {x: -128, y: -64}
+        - {x: 128, y: -64}
+        - {x: 128, y: 64}
+    - name: bg_solid_colors_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 32
-        width: 32
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Light Blue
-      rect:
-        serializedVersion: 2
-        x: 97
-        y: 32
-        width: 31
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Dark Blue
-      rect:
-        serializedVersion: 2
-        x: 31
+        x: 95
         y: 96
         width: 33
         height: 32
@@ -103,21 +87,6 @@ TextureImporter:
         - {x: -16.5, y: -16}
         - {x: 16.5, y: -16}
         - {x: 16.5, y: 16}
-    - name: White
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
     outline: []
   spritePackingTag: 
   userData: 
