@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: a13edcdb8d45a4b30bcd4a0bb29f73de
-timeCreated: 1514587870
+timeCreated: 1514597920
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -9,7 +9,7 @@ TextureImporter:
     21300004: Light Blue
     21300006: Dark Blue
     21300008: White
-    21300010: bg_solid_colors_0
+    21300010: Light Blue
     21300012: bg_solid_colors_1
   serializedVersion: 2
   mipmaps:
@@ -36,7 +36,7 @@ TextureImporter:
   textureFormat: -1
   maxTextureSize: 2048
   textureSettings:
-    filterMode: -1
+    filterMode: 0
     aniso: 16
     mipBias: -1
     wrapMode: 1
@@ -57,21 +57,21 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: bg_solid_colors_0
+    - name: Light Blue
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 256
-        height: 128
+        x: 96
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -128, y: 64}
-        - {x: -128, y: -64}
-        - {x: 128, y: -64}
-        - {x: 128, y: 64}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: bg_solid_colors_1
       rect:
         serializedVersion: 2

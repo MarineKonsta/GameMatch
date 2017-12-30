@@ -1057,12 +1057,9 @@ GameObject:
   - 212: {fileID: 446150941}
   - 50: {fileID: 446150940}
   - 58: {fileID: 446150939}
-  - 114: {fileID: 446150944}
-  - 114: {fileID: 446150943}
   - 95: {fileID: 446150945}
   - 114: {fileID: 446150946}
   - 61: {fileID: 446150947}
-  - 114: {fileID: 446150948}
   m_Layer: 9
   m_Name: Kirby
   m_TagString: Player
@@ -1145,35 +1142,6 @@ Transform:
   - {fileID: 1651249768}
   m_Father: {fileID: 0}
   m_RootOrder: 1
---- !u!114 &446150943
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 446150938}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3d7b34a3bb2d4e4b926e7e729d3d410, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &446150944
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 446150938}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d08f91df3bd212f429df17f53ce2f364, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MaxSpeed: 10
-  m_JumpForce: 400
-  m_CrouchSpeed: 0.36
-  m_AirControl: 0
-  m_WhatIsGround:
-    serializedVersion: 2
-    m_Bits: 0
 --- !u!95 &446150945
 Animator:
   serializedVersion: 3
@@ -1181,7 +1149,7 @@ Animator:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 446150938}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 0e12ce0ae2fa34eadbd281d8af13f772, type: 2}
   m_CullingMode: 0
@@ -1222,22 +1190,6 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 0.19, y: 0.19}
---- !u!114 &446150948
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 446150938}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d8238cc53530b64fbb7828c3d3bb591, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  damping: 1
-  lookAheadFactor: 3
-  lookAheadReturnSpeed: 0.5
-  lookAheadMoveThreshold: 0.1
 --- !u!1 &461910273
 GameObject:
   m_ObjectHideFlags: 0
@@ -2656,6 +2608,7 @@ GameObject:
   - 124: {fileID: 1484002577}
   - 81: {fileID: 1484002576}
   - 114: {fileID: 1484002581}
+  - 114: {fileID: 1484002582}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2742,10 +2695,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 446150942}
-  damping: 1
-  lookAheadFactor: 1
-  lookAheadReturnSpeed: 0.5
+  damping: 0.1
+  lookAheadFactor: 0
+  lookAheadReturnSpeed: 0.1
   lookAheadMoveThreshold: 0.1
+--- !u!114 &1484002582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1484002575}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8d3968294210ba4a9d2bb96dfa74a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Target: {fileID: 446150942}
+  m_AutoTargetPlayer: 1
+  m_UpdateType: 0
+  m_MoveSpeed: 3
+  m_TurnSpeed: 1
+  m_RollSpeed: 0.2
+  m_FollowVelocity: 0
+  m_FollowTilt: 0
+  m_SpinTurnLimit: 90
+  m_TargetVelocityLowerLimit: 4
+  m_SmoothTurnTime: 0.2
 --- !u!1 &1501108018
 GameObject:
   m_ObjectHideFlags: 0
